@@ -12,9 +12,6 @@ import java.util.List;
 @RequestMapping("apis/user")
 public class UsuarioRestController {
     @Autowired
-    private UsuarioRepository usuarioRepo;
-
-    @Autowired
     private UsuarioService usuarioService;
 
     @GetMapping("")
